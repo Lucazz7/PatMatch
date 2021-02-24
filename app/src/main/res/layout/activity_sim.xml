@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF0F4"
+    android:backgroundTint="#E3E4E4"
+    tools:context=".simActivity">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="420dp"
+        android:background="#FFF076"
+        android:backgroundTint="#FFF076"
+        android:onClick="starselecaopetActivity"
+        android:text="Li e aceito os termos e condições de uso!"
+        android:textAllCaps="true"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="291dp"
+        android:layout_height="727dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="298dp"
+                android:layout_height="117dp"
+                android:layout_marginTop="100dp"
+                android:text="Agora,precisamos que leia com atenção nossos termos de contrato para favorecer nosso trabalho para os cuidados e proteções necessarias!  "
+                android:textColor="#1C1818"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Nosso aplicativo surgiu a partir de ideias sobre cuidados e adoção de animais, na qual muitos cachorros ou gatos acabam por sofrer de fome, miséria ou se deparar com pessoas que acabam por maltratar por se tratar de um Vira Lata, ou um cão feio, judiado e sarnento dependendo, essa mesma situação pode ocorrer com gatos também. Por isso nosso aplicativo resgata esses mesmos, entregamos nossos cuidados por conta própria até encontrar um Dono que prometa fazer o mesmo. "
+                android:textColor="#1C1818"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:text="Abaixo listaremos algumas leis na qual se ocorrer com você poderá cumprir uma pena de até 6 anos de prisão dependendo da situação.
+"
+                android:textColor="#1C1818"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:text="A principal lei que protege os animais é a Lei Federal 9.605/98, conhecida como Lei dos Crimes Ambientais: Art. 32 – Praticar ato de abuso, maus-tratos, ferir ou mutilar animais silvestres, domésticos ou domesticados, nativos ou exóticos."
+                android:textColor="#1C1818"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:text="Proclama-se o seguinte: ARTIGO 1: Todos os animais nascem iguais diante da vida,e têm o mesmo direito à existência. ARTIGO 2: a)Cada animal tem direito ao respeito. b)O homem, enquanto espécie animal, não pode atribuir-se o direito de exterminar os outros animais, ou explorá-los, violando esse direito."
+                android:textColor="#1C1818"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
